@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>registration page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a362fb6388.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h4>😊</h4>
+        <h2>Register for codeKaro eligibility program</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quibusdam
+          ipsa modi cumque expedita perspiciatis!
+        </p>
+        <div class="form">
+          <input type="text" placeholder="Enter the name" id="name" />
+          <input type="text" placeholder="Enter the email" id="email" />
+        </div>
+        <button class="btn" onclick="register()">Apply Now</button>
+      </div>
+
+      <div class="success" id="success">
+        <h2>
+          <h2 id="heading">Registration successful!</h2>
+          <h3>Name: <span id="userName"></span></h3>
+          <h3>Email:  <span id="userEmail"></span></h3>
+          <h3>Exam Center: <span id="exam"></span></h3>
+        </h2>
+      </div>
+    </div>
+
+  <script src="app.js"></script>
+  </body>
+</html>
